@@ -19,7 +19,7 @@ I started my project with the bin. I personally enjoy making Case statements and
  - here is a short sample of my case input
     
 	
-  `when "1" 
+  ``when "1" 
 	puts "Name: #{dex_1.name}"
 	puts "#{dex_1.gen}"
 	puts "Type: #{dex_1.type}"
@@ -31,14 +31,14 @@ I started my project with the bin. I personally enjoy making Case statements and
 	puts "#{dex_2.gen}"
 	puts "Type: #{dex_2.type}"
 	puts ""
-	level_2`
+	level_2``
 
 		
 - after some time I decided to change it up to heredocs. The code not onlny looks far cleaner, but easier to understands and makes the project more DRY. 
 
 
   
- `input = gets.strip 
+``input = gets.strip 
    case input
     when "1"
     puts <<~DOC
@@ -49,7 +49,7 @@ I started my project with the bin. I personally enjoy making Case statements and
     Weight: #{dex_1.weight}
     Physiology: #{dex_1.phy}
     DOC
-    level_2 `
+    level_2 ``
 
 
 		
@@ -57,7 +57,7 @@ Obects and Oreintation: I used a few objects to showcase the attributes of the P
 
 `attr_accessor :name, :gen, :type, :height, :weight, :phy`
 
-Scraping:  Using  https://pokemon.fandom.com/wiki/ I was able to scrape the data I needed. As you can see it was then transfered into my lengthy heredoc. Looking back on the project I think I would've taken the time to figure out a way to condense the hard code in the heredocs. 
+Scraping:  Using  https://pokemon.fandom.com/wiki/ I was able to scrape the data I needed. As you can see it was then transfered into my lengthy heredoc. With the Scraping I would either take a look at the inspect elements myself and insert it into the object or I would find the HTML tag and right click for copy element path which then allowed me to put it into the object. Copy element path (mac book) worked as a shortcut to get the required information instead of working with pry. Looking back on the project I think I would've taken the time to figure out a way to condense the hard code in the heredocs. 
 
 Struggles: What I probably struggled most on was actually the initial set up of the gem. I needed to make sure all the "requires" were in the correct folders and everything would work correctly. I mainly did this via trial and error running the bin and seeing if it would work. I'd like to improve my ability on requires by learning more and figuring out from the start where and when things should be. 
 
