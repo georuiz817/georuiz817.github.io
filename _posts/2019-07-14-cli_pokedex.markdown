@@ -19,7 +19,8 @@ I started my project with the bin. I personally enjoy making Case statements and
  - here is a short sample of my case input
     
 	
-  ``when "1" 
+  ```
+when "1" 
 	puts "Name: #{dex_1.name}"
 	puts "#{dex_1.gen}"
 	puts "Type: #{dex_1.type}"
@@ -31,14 +32,16 @@ I started my project with the bin. I personally enjoy making Case statements and
 	puts "#{dex_2.gen}"
 	puts "Type: #{dex_2.type}"
 	puts ""
-	level_2``
+	level_2>
+```
 
 		
 - after some time I decided to change it up to heredocs. The code not onlny looks far cleaner, but easier to understands and makes the project more DRY. 
 
 
   
-``input = gets.strip 
+    ```
+input = gets.strip 
    case input
     when "1"
     puts <<~DOC
@@ -49,7 +52,8 @@ I started my project with the bin. I personally enjoy making Case statements and
     Weight: #{dex_1.weight}
     Physiology: #{dex_1.phy}
     DOC
-    level_2 ``
+    level_2 
+```
 
 
 		
