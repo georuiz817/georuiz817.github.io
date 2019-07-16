@@ -18,7 +18,7 @@ I started my project with the bin. I personally enjoy making Case statements and
 
  - here is a short sample of my case input
     
-	```
+	
 when "1" 
 	puts "Name: #{dex_1.name}"
 	puts "#{dex_1.gen}"
@@ -32,12 +32,12 @@ when "1"
 	puts "Type: #{dex_2.type}"
 	puts ""
 	level_2
-```
+
 		
 - after some time I decided to change it up to heredocs. The code not onlny looks far cleaner, but easier to understands and makes the project more DRY. 
 
 
-  ```
+  
  input = gets.strip 
    case input
     when "1"
@@ -50,12 +50,12 @@ when "1"
     Physiology: #{dex_1.phy}
     DOC
     level_2 
-```
+
 
 		
 Obects and Oreintation: I used a few objects to showcase the attributes of the Pokemon.  Name, Generation, Type, Height, Weight, Physiology. Each one would then be scraped via  https://pokemon.fandom.com/wiki/ and the information would be passed into the case statements. 
 
-`attr_accessor :name, :gen, :type, :height, :weight, :phy`
+attr_accessor :name, :gen, :type, :height, :weight, :phy
 
 Scraping:  Using  https://pokemon.fandom.com/wiki/ I was able to scrape the data I needed. As you can see it was then transfered into my lengthy heredoc. Looking back on the project I think I would've taken the time to figure out a way to condense the hard code in the heredocs. 
 
