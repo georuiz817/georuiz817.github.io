@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Application Project - Restaurant Tracker""
-date:       2019-08-22 22:53:44 +0000
+date:       2019-08-22 18:53:45 -0400
 permalink:  sinatra_application_project_-_restaurant_tracker
 ---
 
