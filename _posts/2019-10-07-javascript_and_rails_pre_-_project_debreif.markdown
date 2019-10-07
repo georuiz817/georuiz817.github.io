@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Javascript and Rails pre - project debreif  "
-date:       2019-10-07 18:34:10 +0000
+date:       2019-10-07 14:34:11 -0400
 permalink:  javascript_and_rails_pre_-_project_debreif
 ---
 
