@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript and Rails API project post -debrief "
-date:       2019-10-14 03:38:28 +0000
+date:       2019-10-13 23:38:29 -0400
 permalink:  javascript_and_rails_api_project_post_-debrief
 ---
 
