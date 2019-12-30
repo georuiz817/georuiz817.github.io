@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Carrer Journey!"
-date:       2019-12-30 03:41:02 +0000
+date:       2019-12-29 22:41:04 -0500
 permalink:  carrer_journey
 ---
 
