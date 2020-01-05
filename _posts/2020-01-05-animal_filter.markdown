@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Animal Filter"
-date:       2020-01-05 23:03:12 +0000
+date:       2020-01-05 18:03:13 -0500
 permalink:  animal_filter
 ---
 
