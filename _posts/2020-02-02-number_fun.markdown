@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Number Fun"
-date:       2020-02-02 21:26:58 +0000
+date:       2020-02-02 16:26:59 -0500
 permalink:  number_fun
 ---
 
