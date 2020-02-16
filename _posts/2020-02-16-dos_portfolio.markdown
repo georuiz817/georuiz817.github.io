@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "DOS Portfolio"
-date:       2020-02-16 23:19:33 +0000
+date:       2020-02-16 18:19:34 -0500
 permalink:  dos_portfolio
 ---
 
