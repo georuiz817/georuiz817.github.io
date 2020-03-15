@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The untapped jobs for a developer"
-date:       2020-03-15 16:37:31 +0000
+date:       2020-03-15 12:37:32 -0400
 permalink:  the_untapped_jobs_for_a_developer
 ---
 
