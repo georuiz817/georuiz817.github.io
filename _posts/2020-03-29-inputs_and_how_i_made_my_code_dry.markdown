@@ -36,30 +36,23 @@ const EditComp = () => {
   return ( A BUNCH OF CODE 
 	```
 
+
 Now I'm sure you can see the problem there. For one it's in no way DRY (don't repeat yourself). We are using practically the same function besides the style at the very end. It's cluttered and messy. When some one would go to look into the component they'd be pretty confused on how to navigate this. 
 
 I wanted to go one step further and get all that pesky unDRY code out of the component. So how did I do that? Well I made a make shift helper.js component and imported it having each block look like this: 
 
-```
- PinkBack: function(){
-        document.getElementsByTagName('body')[0].style.backgroundColor = 'pink'
-    },
-```
+```PinkBack: function(){document.getElementsByTagName('body')[0].style.backgroundColor = 'pink'},```
 
 Then would call each function with
 
-```
-onClick={EditHelpers.PinkBack}
-```
+```onClick={EditHelpers.PinkBack}```
 
 
 Basically everything was the same, still the same amount of code that is unDRY but, at least it's stored away in another component where no body can see it. Finally I was doing some research on colors with JavaScript how to manipulate them and how to make everything less DRY. I found my soulution and it seemed pretty obvious once I read it. Our input tags have a type that results in color! All I had to do was set a input type to color and I had every color at the users disposale, not just the 5 I made into squares with CSS with the click function. Now users realy could have more options. With that all I had to do was make the onClick function as simple as 
 
-```
- ColorChange: function(){
-    document.getElementsByTagName("body")[0].style.backgroundColor = document.getElementsByClassName("ColorPickerName")[0].value;
-    },
-```
+```ColorChange: function(){
+document.getElementsByTagName("body")[0].style.backgroundColor = document.getElementsByClassName("ColorPickerName")[0].value;
+},```
 
 Now when a user chose the value(selected color) for the input (with a type of color) and clicked the button(with an onClick function of the above code block) it would change to that! Way less unDry and gave the user more options. 
 
