@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Inputs and how I made my code DRY"
-date:       2020-03-29 20:23:10 +0000
+date:       2020-03-29 16:23:11 -0400
 permalink:  inputs_and_how_i_made_my_code_dry
 ---
 
