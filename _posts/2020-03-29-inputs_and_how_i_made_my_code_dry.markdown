@@ -5,7 +5,7 @@ date:       2020-03-29 16:23:11 -0400
 permalink:  inputs_and_how_i_made_my_code_dry
 ---
 
-Working and always adding to my Web Developer portoflio, I thought of a new idea for it. I was going to make a edit page so a user can change the background, text color, and font, and cursor of the portfolio to whatever they wanted to with a simple click. The idea was to have buttons with options that a user can click and it would change. Simply enough in my React project in the container component for the edit page I through in this: 
+Working and always adding to my Web Developer portoflio, I thought of a new idea for it. I was going to make a edit page so a user can change certain styles of site. The idea was to have buttons that a user can click to make said changes. In my container component for the edit page I wrote in this: 
 
 
 ```
@@ -36,9 +36,9 @@ const EditComp = () => {
   return ( A BUNCH OF CODE 
 	```
 
-Now I'm sure you can see the problem there. For one it's in no way DRY (don't repeat yourself). We are using practically the same blocks of code besides changing the style at the very end. It's cluttered and messy. When some one would go to look into the component they'd be pretty confused on how to navigate this. 
+Now I'm sure you can see the problem there. For one it's in no way DRY (don't repeat yourself). We are using practically the same function besides the style at the very end. It's cluttered and messy. When some one would go to look into the component they'd be pretty confused on how to navigate this. 
 
-I wanted to go one step further and get all that pesky unDRY code out of the component. So how did I do that? Well I made a make shift helper.js component and imported it into this one having each block look like this: 
+I wanted to go one step further and get all that pesky unDRY code out of the component. So how did I do that? Well I made a make shift helper.js component and imported it having each block look like this: 
 
 ```
  PinkBack: function(){
