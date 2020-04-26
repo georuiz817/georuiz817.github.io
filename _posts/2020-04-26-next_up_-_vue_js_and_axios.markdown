@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Next Up - Vue.js and Axios "
-date:       2020-04-26 16:23:28 +0000
+date:       2020-04-26 12:23:29 -0400
 permalink:  next_up_-_vue_js_and_axios
 ---
 
