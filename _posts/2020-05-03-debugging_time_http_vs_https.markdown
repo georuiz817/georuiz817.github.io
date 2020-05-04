@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Debugging Time! HTTP VS HTTPS"
-date:       2020-05-04 00:46:34 +0000
+date:       2020-05-03 20:46:35 -0400
 permalink:  debugging_time_http_vs_https
 ---
 
