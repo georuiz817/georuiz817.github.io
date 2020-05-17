@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "MIXINS = DRY"
-date:       2020-05-17 14:20:51 +0000
+date:       2020-05-17 10:20:52 -0400
 permalink:  mixins_dry
 ---
 
